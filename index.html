@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+            <nav class="menu">
+                <div class="info_block">
+                    <img src="logo-png.png" alt="logo" class="logo">
+
+                </div>
+            </nav>
+    </header>
+
+
+    <section class="section_1" id="section_1">
+       <div class="window_block">
+        
+        
+       
+
+       <div id="first screen"  class="first screen">
+        <div class="center_block">
+              
+             <div class="input_flex">
+                
+              <div class="flex">
+
+                     <h3 class="ukr_h3">Ukrainisch</h3>
+                     <form action="">
+                        <input type="text" class="ukrainian_word" id="ukrainian_word" placeholder="Ukrainisch">
+                     </form>
+
+                     
+                     <h3 class="deu_h3">Deutsch</h3>
+                     <form action="">
+                        <input type="text" class="german_word" id="german_word" placeholder="Deutsch">
+                    </form>
+                   
+
+              
+              </div>
+              <div class="btns_block">
+               <button class="btn_start" id="btn_start">Start</button>
+                <button class="btn_to_add" id="btn_to_add">Ergänzen</button>
+           </div>
+           </div>
+        </div>
+             
+              <div class="window_with_arrays" id="window_with_arrays" >
+                
+              </div>
+             
+                   <div class="div_push" id="div_push">
+                       
+                   </div> 
+             
+             
+        </div>
+       
+        
+
+    </div> 
+    </section>
+    <section class="section_2" id="section_2">
+        <div class="game_window" id="game_window">
+            <div id="index_question" class="number_div"></div> 
+            <p class="ukrainian_question" id="ukrainian_question"></p>
+            <input type="text" id="german_question" class="german_question">
+            <button class="game_btn" id="game_btn">
+                next
+            </button>
+            <button class="check_button" id="check_button">check</button>
+
+          
+        </div>
+    </section>
+    <footer>
+       <p class="footer_div">&copy; Wit_Kol</p> 
+    </footer>
+    
+
+
+    <div id="popup" class="popup">
+          <div class="popup_body">
+            <div class="popup_content">
+                
+                
+                <div class="popup_text">Ви закінчили, що далі ?</div>
+                <button class="popup_close" id="popup_close">Zumachen</button>
+                <button class="add_word" id="add_word">Ergänzen Wörte</button>
+                <div class="open_input" id="open_input">
+                <p>напиши щось</p>
+                <input type="text" id="input_add_in_localStorage">
+                <button id="add_in_localStorage" class="add_in_localStorage">Ergänzen Liste</button>
+                 </div>   
+                
+            </div>
+          </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

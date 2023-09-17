@@ -1,0 +1,347 @@
+
+body{
+
+margin: 0px 0px 0px 0px;
+height: 100%;
+font-family: 'Mukta Malar', sans-serif;
+}
+ button{
+    cursor: pointer;
+    font-family: 'Mukta Malar', sans-serif;
+}
+
+.menu {
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #23953c;
+}
+.info_block{
+margin: 10px 10px 10px 10px;
+}
+.logo{
+    width: 120px;
+    height: 80px;
+}
+.section_1 {
+    
+    padding: 10px;
+
+}
+.section_1.none{
+   display: none;
+}
+.section_2 {
+    display: none;
+}
+.section_2.lok{
+    display: flex;
+    min-height: 800px;
+    background: #dcf9dc;
+    justify-content: center;
+
+}
+
+
+.game_window{
+    width: 450px;
+    height: 150px;
+    background: #2ed0c2;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 80px 0 0 0;
+
+
+}
+.german_question{
+    position: relative;
+  height: 30px;
+  width: 230px;
+  border-radius: 20px;
+  border: 0;
+  padding: 0 20px;
+}
+.german_question.green{
+    border-color: rgb(33, 224, 15);
+    border: 2px;
+   
+}
+.german_question.red{
+    border-color: rgb(252, 0, 0);
+    border: 2px;
+}
+
+ h3{
+     margin-bottom: 5px;
+   color: #fff;
+}
+.flex input{
+  position: relative;
+  height: 30px;
+  width: 230px;
+  border-radius: 20px;
+  border: 0;
+  padding: 0 20px;
+}
+.ukrainian_word{
+    margin-bottom: 20px;
+     
+}
+.german_word{
+   
+
+}
+.flex{
+    left: 30px;
+    position: relative;
+    top: 15px;
+}
+
+.btns_block{
+  position: relative; 
+  left: 370px;
+  bottom: 70px;
+}
+.ukr_h3{
+  margin-left: 15px;  
+}
+.deu_h3{
+   margin-left: 16px; 
+}
+.game_btn{
+    border: 0;
+    background-color: #ffffff;
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    
+    color: #32b9d1;
+    font-size: 15px;
+}
+.check_button{
+    border: 0;
+    background-color: #ffffff;
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    
+    color: #32b9d1;
+    font-size: 15px;
+}
+
+.btn_start{
+    position: relative; 
+    bottom: 40px;
+    border: 0;
+    
+    background-color: #ffffff;
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 10px#2fe156,-2px -3px 10px#2fe156;
+    color: #429755;
+    font-size: 15px;
+}
+.btn_to_add{
+    position: relative; 
+    top: 55px;
+    right: 81px;
+   border: 0;
+    border-radius: 0;
+    background-color: #ffffff;
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 10px#2fe156,-2px -3px 10px#2fe156;
+    color: #429755;
+    font-size: 15px;
+}
+.flex_div{
+   
+    min-width: 150px;
+    min-height: 150px;
+    background: linear-gradient(233deg, transparent 25px, rgb(44 195 52) 0);
+    margin: 15px 0 0 27px;
+    padding: 0 20px; 
+}
+
+.flex_div p{
+    font-size: 25px;
+    color: #fff;
+}
+.ger{
+    
+}
+.ukrainian_question{
+    font-size: 25px;
+    color: #fff;
+}
+.number_div{
+    font-size: 20px;
+    color: #fff;
+}
+.input_flex{
+  
+  width: 500px;
+  height: 200px;
+  box-sizing: border-box;
+  background-color: #4caa61;
+  border-radius: 40px;
+
+}
+.popup{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.322);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.popup.open{
+   
+    opacity: 1;
+    visibility: visible;
+}
+.popup_body{
+    min-height: 50%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 30px 10px;
+    margin-top: 10%;
+
+}
+.popup_text{
+    color: #fff;
+}
+.popup_content{
+    background-color: rgb(8, 136, 14);
+    color: black;
+    min-width: 300px;
+    max-height: 170px;
+    max-width: 800px;
+    padding: 30px;
+}
+.popup_close {
+    border: 0;
+    background-color: #ffffff;
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 10px#2fe156,-2px -3px 10px#2fe156;
+    color: #429755;
+    font-size: 15px; 
+    margin-top: 20px;
+}
+.add_word{
+    border: 0;
+    background-color: #ffffff;
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 10px#2fe156,-2px -3px 10px#2fe156;
+    color: #429755;
+    font-size: 15px; 
+    margin-top: 20px;
+    margin-left: 30px; 
+}
+.open_input{
+    display: none;
+}
+.open_input.open{
+    display: block;
+    color: #fff;
+}
+.add_in_localStorage{
+    border: 0;
+    background-color: #ffffff;
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 10px#2fe156,-2px -3px 10px#2fe156;
+    color: #429755;
+    font-size: 15px; 
+    margin-top: 20px;
+    margin-left: 30px; 
+}
+#input_add_in_localStorage{
+  height: 30px;
+  width: 230px;
+  border-radius: 20px;
+  border: 0;
+  padding: 0 20px;
+}
+
+.box_p {
+    cursor: pointer; 
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    min-width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: #33a318;
+}
+.text_comand {
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+}
+.window_with_arrays{
+     width: 500px;
+    min-height: 200px;
+    box-sizing: border-box;
+    background-color: #4caa61;
+    border-radius: 40px;
+    margin-left: 500px;
+    position: relative;
+    bottom: 200px;
+    left: 500px;
+    
+}
+.div_push {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 40px 70px 40px;
+    width: 90%;
+}
+
+
+/*
+@keyframes divblock {
+   from {
+    
+   } 
+
+   to {
+    min-width: 150px;
+    min-height: 150px;
+    background: linear-gradient(233deg, transparent 25px, rgb(44 195 52) 0);
+    margin: 15px 0 0 27px;
+    padding: 0 20px; 
+   }
+}
+@keyframes myAnimation {
+    form {
+      
+    }
+   50% {
+    background-color: aqua;
+   }
+    to{
+       background-color: #232e95;
+    }
+}
+*/
+footer {
+    background-color: #2fe156;
+    padding:  20px 0 20px 0;
+    text-align: center;
+    color: #fff;
+}
